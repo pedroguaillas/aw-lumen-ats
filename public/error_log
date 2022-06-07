@@ -1,0 +1,895 @@
+[06-Aug-2020 15:41:57 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[06-Aug-2020 15:41:57 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[10-Aug-2020 14:46:47 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[10-Aug-2020 14:46:47 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[21-Aug-2020 12:55:12 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[21-Aug-2020 12:55:12 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[27-Aug-2020 17:05:45 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[27-Aug-2020 17:05:45 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[10-Sep-2020 21:28:17 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[10-Sep-2020 21:28:17 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : Document is empty
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[14-Sep-2020 14:05:24 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[14-Sep-2020 14:05:24 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 10:15:59 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:15:59 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:16:14 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:16:14 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:16:36 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:16:36 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:16:55 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/containe in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 10:16:55 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 10:17:19 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/containe in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 10:17:19 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 10:28:12 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:28:12 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:28:36 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:28:36 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:28:58 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:28:58 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:29:33 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:29:33 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:30:52 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:30:52 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:36:07 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:36:07 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:46:58 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 10:46:58 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 11:25:41 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 11:25:41 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[18-Sep-2020 11:35:37 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/containe in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:35:37 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:36:18 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/containe in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:36:18 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:37:11 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:37:11 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:37:22 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/containe in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:37:22 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:40:06 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/containe in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:40:06 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:40:17 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/containe in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[18-Sep-2020 11:40:17 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[19-Sep-2020 12:39:06 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMet in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[19-Sep-2020 12:39:06 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[19-Sep-2020 12:39:58 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMet in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[19-Sep-2020 12:39:58 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[19-Sep-2020 12:41:11 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMet in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[19-Sep-2020 12:41:11 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[19-Sep-2020 12:41:42 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[19-Sep-2020 12:41:42 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[19-Sep-2020 12:41:57 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[19-Sep-2020 12:41:57 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[19-Sep-2020 12:42:37 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMet in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[19-Sep-2020 12:42:37 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[19-Sep-2020 12:45:39 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMet in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[19-Sep-2020 12:45:39 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[05-Oct-2020 21:32:52 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[05-Oct-2020 21:32:52 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[12-Oct-2020 14:53:27 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:53:27 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:54:44 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:54:44 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:55:12 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:55:12 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:55:26 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:55:26 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:55:32 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:55:32 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:55:47 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:55:47 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:56:26 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:56:26 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:56:33 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:56:33 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:57:10 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:57:10 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:57:16 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:57:16 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:57:26 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:57:26 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:59:24 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 14:59:24 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 15:01:33 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 15:01:33 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 15:01:41 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 15:01:41 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 15:01:56 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Oct-2020 15:01:56 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[15-Oct-2020 11:15:53 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[15-Oct-2020 11:15:53 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[16-Oct-2020 13:40:19 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[16-Oct-2020 13:40:19 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[16-Oct-2020 13:40:33 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: Connection timed out in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Ill in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[16-Oct-2020 13:40:33 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[17-Oct-2020 18:43:27 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[17-Oct-2020 18:43:27 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[17-Oct-2020 18:43:43 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[17-Oct-2020 18:43:43 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[26-Oct-2020 12:30:49 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[26-Oct-2020 12:30:49 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[08-Nov-2020 23:01:31 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[08-Nov-2020 23:01:31 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[23-Nov-2020 09:22:07 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[23-Nov-2020 09:22:07 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[09-Dec-2020 15:45:50 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[09-Dec-2020 15:45:50 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[16-Dec-2020 12:02:48 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[16-Dec-2020 12:02:48 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[20-Dec-2020 18:20:04 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\A in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[20-Dec-2020 18:20:04 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[20-Dec-2020 18:20:16 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\A in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[20-Dec-2020 18:20:16 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[09-Jan-2021 20:14:53 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[09-Jan-2021 20:14:53 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[11-Jan-2021 23:19:04 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[11-Jan-2021 23:19:04 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Jan-2021 18:22:07 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[12-Jan-2021 18:22:07 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[20-Jan-2021 17:10:06 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[20-Jan-2021 17:10:06 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[03-Feb-2021 11:29:31 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php:27
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 27, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php(27): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\DownloadZip->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /h in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[03-Feb-2021 11:29:31 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/DownloadZip.php on line 27
+[23-Feb-2021 11:03:57 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[23-Feb-2021 11:03:57 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[23-Feb-2021 11:04:20 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[23-Feb-2021 11:04:20 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[23-Feb-2021 11:04:40 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[23-Feb-2021 11:04:40 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[23-Feb-2021 11:06:55 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[23-Feb-2021 11:06:55 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[23-Feb-2021 12:42:59 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[23-Feb-2021 12:42:59 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[26-Feb-2021 12:35:06 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[26-Feb-2021 12:35:06 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[08-Mar-2021 22:38:46 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[08-Mar-2021 22:38:47 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[17-Mar-2021 13:26:07 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[17-Mar-2021 13:26:07 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[05-Apr-2021 17:12:29 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[05-Apr-2021 17:12:29 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Apr-2021 10:20:31 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[12-Apr-2021 10:20:31 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[13-Apr-2021 18:16:09 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[13-Apr-2021 18:16:09 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[15-Apr-2021 10:31:45 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl): failed to open stream: Connection timed out in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Ill in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[15-Apr-2021 10:31:45 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[19-Apr-2021 16:32:56 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[19-Apr-2021 16:32:56 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[22-Apr-2021 13:06:31 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[22-Apr-2021 13:06:31 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[25-Nov-2021 16:29:43 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/vendor/illuminate/support/Str.php on line 353
+[25-Nov-2021 16:33:19 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/vendor/illuminate/support/Str.php on line 353
+[25-Nov-2021 16:33:22 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/vendor/illuminate/support/Str.php on line 353
+[13-Dec-2021 14:12:34 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[13-Dec-2021 14:12:34 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[06-Jan-2022 12:59:10 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/vendor/illuminate/support/Str.php on line 353
+[06-Jan-2022 12:59:13 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/vendor/illuminate/support/Str.php on line 353
+[06-Jan-2022 12:59:14 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/vendor/illuminate/support/Str.php on line 353
+[06-Jan-2022 12:59:27 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/vendor/illuminate/support/Str.php on line 353
+[06-Jan-2022 12:59:27 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/vendor/illuminate/support/Str.php on line 353
+[06-Jan-2022 12:59:28 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/vendor/illuminate/support/Str.php on line 353
+[06-Jan-2022 12:59:28 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/vendor/illuminate/support/Str.php on line 353
+[10-Jan-2022 11:10:49 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 47
+[10-Jan-2022 11:12:46 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 47
+[10-Jan-2022 11:15:26 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 47
+[11-Jan-2022 16:03:48 America/Guayaquil] PHP Warning:  Uncaught ErrorException: SoapClient::SoapClient(): SSL: Connection reset by peer in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php:36
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'SoapClient::Soa...', '/home2/chibolo/...', 36, Array)
+#1 /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php(36): SoapClient->SoapClient('https://cel.sri...', Array)
+#2 [internal function]: App\Http\Controllers\TestController->downloading(Object(Laravel\Lumen\Http\Request))
+#3 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(90): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#5 /home2/chibolo/ats.auditwhole.com/vendor/illuminate/container/BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closur in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[11-Jan-2022 16:03:48 America/Guayaquil] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl' : failed to load external entity "https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl"
+ in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/TestController.php on line 36
+[02-Feb-2022 10:57:53 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[02-Feb-2022 11:30:57 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[03-Feb-2022 10:09:35 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[03-Feb-2022 10:09:55 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[03-Feb-2022 10:25:45 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[17-Feb-2022 12:28:31 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[17-Feb-2022 12:28:51 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[04-Mar-2022 12:02:34 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[04-Mar-2022 12:02:36 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[04-Mar-2022 12:04:57 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[04-Mar-2022 12:05:03 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[04-Mar-2022 12:05:29 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[04-Mar-2022 12:05:29 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[04-Mar-2022 12:05:29 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[04-Mar-2022 12:05:30 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[04-Mar-2022 12:08:42 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[04-Mar-2022 12:09:50 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[09-Mar-2022 15:25:32 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[09-Mar-2022 15:25:52 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
+[09-Mar-2022 15:25:53 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/chibolo/ats.auditwhole.com/app/Http/Controllers/ReportVentasController.php on line 61
