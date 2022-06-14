@@ -10,26 +10,28 @@ $router->get('dashboard', 'DashboardController@index');
 $router->get('tests', 'TestController@index');
 $router->post('tests/downloading', ['uses' => 'TestController@downloading']);
 
-$router->post('downloadzip', ['uses' => 'DownloadZip@downloading']);
-
 $router->get('vdownloads', 'VDownloadController@index');
 $router->post('vdownloads/downloading', ['uses' => 'VDownloadController@downloading']);
 
 $router->post('register', ['uses' => 'AuthController@register']);
 $router->post('login', ['uses' => 'AuthController@login']);
+
+// asesores - users
 $router->post('listusser', ['uses' => 'UserController@listusser']);
+$router->post('user/{id}/customers', 'UserController@customers');
 
 //Payments
 $router->post('paymentlist', 'PaymentController@paymentlist');
 $router->post('payments', 'PaymentController@store');
 $router->put('payments/{id}', 'PaymentController@update');
 $router->delete('payments/{id}', 'PaymentController@destroy');
-$router->post('listtablebyuser', 'PaymentController@listtablebyuser');
 
 //Customers
 $router->post('customerlist', 'ClienteAuditwholeController@customerlist');
 $router->post('customers', ['uses' => 'ClienteAuditwholeController@store']);
-$router->post('customers/update', ['uses' => 'ClienteAuditwholeController@update']);
+$router->put('customers/{ruc}/update', ['uses' => 'ClienteAuditwholeController@update']);
+$router->get('customers/{ruc}/show', 'ClienteAuditwholeController@show');
+$router->get('customers/{ruc}/payments', 'ClienteAuditwholeController@payments');
 
 //Ruta que genera el ATS
 $router->get('archivos', ['uses' => 'AtsController@index']);
@@ -44,9 +46,6 @@ $router->post('contactos', ['uses' => 'ContactoController@update']);
 $router->post('contactosgetmasive', ['uses' => 'ContactoController@getmasive']);
 $router->post('contactos/store', ['uses' => 'ContactoController@store']);
 $router->get('contactos/{id}', 'ContactoController@show');
-
-//SendToSri
-$router->get('sends', ['uses' => 'SendToSriController@index']);
 
 $router->post('reportcompra', ['uses' => 'ReportComprasController@report']);
 

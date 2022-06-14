@@ -6,8 +6,6 @@ use App\ClienteAuditwhole;
 use Illuminate\Http\Request;
 use App\Http\Resources\PaymentResources;
 use App\Payment;
-use App\User;
-use Illuminate\Support\Facades\DB;
 
 class PaymentController extends Controller
 {
@@ -22,7 +20,7 @@ class PaymentController extends Controller
         }
 
         $payments = Payment::where('cliente_auditwhole_ruc', $ruc)
-            ->orderBy('created_at', 'DESC')
+            ->orderBy('month', 'DESC')
             ->get();
 
         $month = null;
@@ -47,7 +45,7 @@ class PaymentController extends Controller
         }
 
         $payments = Payment::where('cliente_auditwhole_ruc', $ruc)
-            ->orderBy('created_at', 'DESC');
+            ->orderBy('month', 'DESC');
 
         return response()->json([
             'payments' => PaymentResources::collection($payments->paginate($paginate)),
@@ -86,39 +84,5 @@ class PaymentController extends Controller
     {
         $payment = Payment::find($id);
         $payment->delete();
-    }
-
-    public function listtablebyuser(Request $request)
-    {
-        $sql = '';
-        $months = [
-            1 => 'enero',
-            2 => 'febrero',
-            3 => 'marzo',
-            4 => 'abril',
-            5 => 'mayo',
-            6 => 'junio',
-            7 => 'julio',
-            8 => 'agosto',
-            9 => 'septiembre',
-            10 => 'octubre',
-            11 => 'noviembre',
-            12 => 'diciembre',
-        ];
-
-        foreach ($months as $key => $value) {
-            $sql .= "(SELECT amount FROM payments WHERE cliente_auditwhole_ruc = ruc AND year = $request->year AND month = $key) AS $value, ";
-        }
-        // $sql = substr($sql, 0, -1);
-        $sql .= "(SELECT SUM(amount) FROM payments WHERE cliente_auditwhole_ruc = ruc AND year = $request->year) AS total";
-
-        $customers = DB::table('cliente_auditwholes')
-            ->select('razonsocial', 'ruc', DB::raw($sql))
-            ->where('user_id', $request->id)
-            ->get();
-
-        $user = User::find($request->id);
-
-        return response()->json(['customers' => $customers, 'user' => $user]);
     }
 }
