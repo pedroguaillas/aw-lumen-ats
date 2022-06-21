@@ -33,6 +33,7 @@ class UserController extends Controller
         $customers = DB::table('cliente_auditwholes')
             ->select('razonsocial', 'ruc', DB::raw("(SELECT SUM(amount) FROM payments WHERE cliente_auditwhole_ruc = ruc AND year = $request->year) AS total"))
             ->where('user_id', $id)
+            ->where('amount', '>', 0)
             ->get();
 
         return response()->json(['user' => $user, 'customers' => $customers]);
