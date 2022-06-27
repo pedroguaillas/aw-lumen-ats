@@ -9,6 +9,6 @@ class Payment extends Model
     public $timestamps = true;
 
     protected $fillable = [
-        'cliente_auditwhole_ruc', 'month', 'year', 'amount', 'note', 'type', 'voucher'
+        'cliente_auditwhole_ruc', 'month', 'year', 'amount', 'note', 'type', 'voucher', 'date'
     ];
 }

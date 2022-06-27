@@ -60,7 +60,8 @@ class PaymentController extends Controller
         $payment = Payment::where([
             'cliente_auditwhole_ruc' => $request->cliente_auditwhole_ruc,
             'month' => $request->month,
-            'year' => $request->year
+            'year' => $request->year,
+            'date' => $request->date
         ])->get();
 
         if (count($payment) > 0) {
