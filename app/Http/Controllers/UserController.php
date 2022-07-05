@@ -26,6 +26,23 @@ class UserController extends Controller
         return UserResources::collection($users->paginate($paginate));
     }
 
+    public function listusersalaries(Request $request)
+    {
+        $search = '';
+        $paginate = 15;
+
+        if ($request) {
+            $search = $request->search;
+            $paginate = $request->has('paginate') ? $request->paginate : $paginate;
+        }
+
+        $users = User::where('name', 'LIKE', "%$search%")
+            ->where('salary', '>', 0)
+            ->orderBy('created_at', 'DESC');
+
+        return UserResources::collection($users->paginate($paginate));
+    }
+
     public function customers(int $id, Request $request)
     {
         $user = User::find($id);

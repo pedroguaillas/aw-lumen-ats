@@ -18,7 +18,7 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
      * @var array
      */
     protected $fillable = [
-        'name', 'user', 'rol', 'email', 'password', 'remember_token'
+        'name', 'user', 'rol', 'email', 'password', 'remember_token', 'salary'
     ];
 
     /**
@@ -30,7 +30,8 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
         'password', 'remember_token'
     ];
 
-    public function clienteauditwholes(){
+    public function clienteauditwholes()
+    {
         return $this->hasMany(ClienteAuditwhole::class);
     }
 }

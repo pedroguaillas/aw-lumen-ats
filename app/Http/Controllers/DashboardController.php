@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
 use App\ClienteAuditwhole;
-use App\Payment;
 use App\User;
 
 class DashboardController extends Controller

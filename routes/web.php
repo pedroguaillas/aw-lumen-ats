@@ -18,6 +18,7 @@ $router->post('login', ['uses' => 'AuthController@login']);
 
 // asesores - users
 $router->post('listusser', ['uses' => 'UserController@listusser']);
+$router->post('users/salaries', ['uses' => 'UserController@listusersalaries']);
 $router->post('user/{id}/customers', 'UserController@customers');
 
 //Payments
@@ -25,6 +26,12 @@ $router->post('paymentlist', 'PaymentController@paymentlist');
 $router->post('payments', 'PaymentController@store');
 $router->put('payments/{id}', 'PaymentController@update');
 $router->delete('payments/{id}', 'PaymentController@destroy');
+
+// Salaries
+$router->post('salarylist', 'SalaryController@salarylist');
+$router->post('salaries', 'SalaryController@store');
+$router->put('salaries/{id}', 'SalaryController@update');
+$router->delete('salaries/{id}', 'SalaryController@destroy');
 
 //Customers
 $router->post('customerlist', 'ClienteAuditwholeController@customerlist');
