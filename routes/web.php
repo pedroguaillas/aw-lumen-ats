@@ -33,6 +33,9 @@ $router->post('salaries', 'SalaryController@store');
 $router->put('salaries/{id}', 'SalaryController@update');
 $router->delete('salaries/{id}', 'SalaryController@destroy');
 
+// SalaryAdvance
+$router->get('salaryadvances/{salary_id}', 'SalaryAdvanceController@list');
+
 //Customers
 $router->post('customerlist', 'ClienteAuditwholeController@customerlist');
 $router->post('customers', ['uses' => 'ClienteAuditwholeController@store']);

@@ -17,13 +17,14 @@ class SalaryResources extends JsonResource
         return [
             'id' => $this->id,
             'atts' => [
-                'user_id' => $this->year,
+                'user_id' => $this->user_id,
                 'year' => $this->year,
                 'month' => $this->month,
                 'amount' => $this->amount,
-                'cheque' => $this->note,
-                'amount_cheque' => $this->type,
-                'balance' => $this->voucher,
+                'cheque' => $this->cheque,
+                'amount_cheque' => $this->amount_cheque,
+                'balance' => $this->balance,
+                'paid' => $this->paid,
             ]
         ];
     }

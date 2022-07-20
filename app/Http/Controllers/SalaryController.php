@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Resources\SalaryResources;
 use App\Salary;
 use App\User;
+use Illuminate\Support\Facades\DB;
 
 class SalaryController extends Controller
 {
@@ -19,23 +20,30 @@ class SalaryController extends Controller
             $paginate = $request->has('paginate') ? $request->paginate : $paginate;
         }
 
-        $salaries = Salary::where('user_id', $user_id)
+        $salaries = DB::table('salaries AS s')
+            ->select('s.id', 's.user_id', 's.month', 's.amount', 's.cheque', 's.amount_cheque', 's.balance', DB::raw('SUM(salary_advances.amount) AS paid'))
+            ->leftJoin('salary_advances', 's.id', 'salary_id')
+            ->where('user_id', $user_id)
+            ->groupBy('s.id', 's.user_id', 's.month', 's.amount', 's.cheque', 's.amount_cheque', 's.balance')
             ->orderBy('month', 'DESC')
             ->get();
 
         $month = null;
         $year = null;
 
+        // Le suma un mes al ultimo mes de pago
         if (count($salaries)) {
             $salary = $salaries->first();
-            if ((int)$salary->month === 12) {
+            $month = (int)substr($salary->month, 5, 2);
+            $year = (int)substr($salary->month, 0, 4);
+            if ($month === 12) {
                 $month = 1;
-                $year = $salary->year + 1;
+                $year++;
             } else {
-                $month = $salary->month + 1;
-                $year = $salary->year;
+                $month++;
             }
         } else {
+            // Signfica que es el primer pago, entonces se paga el mes anterior
             $date = strtotime("-1 month");
             $month = (int)date('m', $date);
             $year = date('Y');
@@ -48,7 +56,7 @@ class SalaryController extends Controller
             'salaries' => SalaryResources::collection($salaries->paginate($paginate)),
             'user' => User::find($user_id),
             'year' => $year,
-            'month' => $month,
+            'month' => $month
         ]);
     }
 
@@ -56,8 +64,7 @@ class SalaryController extends Controller
     {
         $salary = Salary::where([
             'user_id' => $request->user_id,
-            'month' => $request->month,
-            'year' => $request->year,
+            'month' => $request->month
         ])->get();
 
         if (count($salary) > 0) {
