@@ -16,4 +16,11 @@ class SalaryAdvanceController extends Controller
             'salaryadvances' => $salaryadvances
         ]);
     }
+
+    public function store(Request $request)
+    {
+        $salaryadvance = SalaryAdvance::create($request->all());
+        
+        return response()->json(['salaryadvance' => $salaryadvance]);
+    }
 }
